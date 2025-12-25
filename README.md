@@ -11,3 +11,8 @@ Flow of the system:
      b. Two monostable multivibrators the take input from the output of the relaxation oscillator and generate pulses of width 500us and 1500us
      
   6. If the input pattern is correct then the system outputs the signal with pulsewidth 1500ms via a 2:1 mux else it outputs the siganl with pulsewidth 500us driving the servo motor appropriately. 
+
+
+I have also included the program files that i used for this project.
+  1. A python program that is used to generate generator functions that will be used to design the pattern detector from the flip flops.
+  2. An AI generated cpp arduino function that is used to validate the output signal of the complete system in terms of period and pulsewidth.
